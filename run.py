@@ -4,7 +4,6 @@ from time import time
 import torch.optim as optim
 from torch.autograd import Variable
 
-from evaluation import evaluate_ranking
 from interactions import Interactions
 from utils import *
 from collections import defaultdict
