@@ -333,7 +333,7 @@ if __name__ == '__main__':
     parser.add_argument('--neg_samples', type=int, default=3)
     parser.add_argument('--use_cuda', type=str2bool, default=True)
     parser.add_argument('--epoch_eval', type=int, default=1)
-    parser.add_argument('--baseline', type=str, default="lspr")
+    parser.add_argument('--baseline', type=str, default="perec")
 
     parser.add_argument('--d', type=int, default=100)
     parser.add_argument('--nv', type=int, default=4)
